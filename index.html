@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Portofolio | Anatoly Sanyuvida Olvi</title>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;800&family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <div class="wrap nav-in">
+    <a href="#home" class="logo">web</b>.porto</b></a>
+    <button class="burger" id="burger" aria-label="Buka menu" aria-expanded="false">☰</button>
+    <ul class="menu" id="menu">
+      <li><a href="#home" class="active">Beranda</a></li>
+      <li><a href="#about">Tentang Saya</a></li>
+      <li><a href="#experience">Pengalaman</a></li>
+      <li><a href="#projects">Proyek</a></li>
+      <li><a href="#contact">Kontak</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header id="home">
+  <div class="wrap hero">
+    <div>
+      <p class="hi">Halo, saya</p>
+      <h1>Anatoly Sanyuvida Olvi</h1>
+      <div class="role"><span id="typed"></span><span class="cursor"></span></div>
+      <p class="tag">Mahasiswa Sistem Informasi Universitas Tanjungpura. Suka dalam menerjemahkan problematika sehari-hari dalam bahasa pemrograman.</p>
+      <div class="btns">
+        <a href="#contact" class="btn primary">Hubungi Saya</a>
+      </div>
+    </div>
+    <div class="slide">
+      <div class="stage">
+        <!-- Foto profil: simpan file di folder yang sama, lalu ganti nama file pada src -->
+        <div class="photo">
+          <div class="photo-in"><span>N</span><img src="images/foto.jpg" alt="Foto profil" onerror="this.remove()"></div>
+        </div>
+        <div class="idcard">
+          <div class="crest">🎓</div>
+          <div><strong>Universitas Tanjungpura</strong><small>Mahasiswa Sistem Informasi</small></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section id="about">
+  <div class="wrap">
+    <h2 class="rv">Tentang <span>Saya</span></h2>
+    <p class="sub rv">Mahasiswa yang senang belajar, berkembang, dan beradaptasi.</p>
+    <div class="about">
+      <div class="rv">
+        <!-- Foto landscape: ganti nama file pada src -->
+        <div class="land"><span>Foto landscape</span><img src="images/lobi.jpg" alt="Foto kegiatan" onerror="this.remove()"></div>
+        <p>Saya merupakan mahasiswa Sistem Informasi di Universitas Tanjungpura, Pontianak. Saya tertarik pada pengembangan web, analisis data, dan perancangan sistem yang benar-benar dipakai orang.</p>
+        <p>Di luar kuliah, saya mengerjakan proyek kecil, mengikuti pelatihan, dan belajar teknologi baru setiap bulan. Hobi saya bermain game, menggambar, dan editing.</p>
+        <div class="facts">
+          <div class="fact"><b data-count="0.0">0</b><small>IPK saat ini</small></div>
+          <div class="fact"><b data-count="0">0</b><small>Proyek selesai</small></div>
+          <div class="fact"><b data-count="1">0</b><small>Sertifikat</small></div>
+          <div class="fact"><b data-count="0">0</b><small>Organisasi</small></div>
+        </div>
+      </div>
+      <div class="skills rv">
+        <h3>Keahlian yang sedang dipelajari</h3>
+        <div class="skill"><b>HTML & CSS</b><p>Menyusun halaman web yang rapi dan responsif, baik di HP maupun laptop.</p></div>
+        <div class="skill"><b>JavaScript</b><p>Mempelajari interaksi dasar seperti animasi, filter, dan pengolahan elemen halaman.</p></div>
+        <div class="skill"><b>Python</b><p>Menguasai dasar-dasar Python: variabel, perulangan, fungsi, dan pengolahan data sederhana.</p></div>
+        <div class="chips"><span class="chip">UI/UX</span><span class="chip">Git</span><span class="chip">Figma</span><span class="chip">Canva</span><span class="chip">Capcut</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="experience" style="background:var(--ink)">
+  <div class="wrap">
+    <h2 class="rv">Pengalaman & <span>Riwayat</span></h2>
+    <p class="sub rv">Pendidikan dan prestasi yang membentuk perjalanan saya.</p>
+    <div class="tl">
+      <div class="item rv"><div class="lg"><span>🎓</span><img src="images/untan.jpg" alt="Logo Universitas Tanjungpura" onerror="this.remove()"></div><div><time>2026 – Sekarang</time><h3>S1 Sistem Informasi, Universitas Tanjungpura</h3><p>Fokus pada pengembangan aplikasi, basis data, dan analisis sistem.</p></div></div>
+      <div class="item rv"><div class="lg"><span>🏆</span><img src="images/sma.jpg" alt="Logo SMA" onerror="this.remove()"></div><div><time>2023-2026</time><h3>SMA GEMBALA BAIK POTIANAK</h3><p>Aktif sebagai siswa peminatan MIPA serta mengikuti English Club</p></div></div>
+      <div class="item rv"><div class="lg"><span>🤝</span><img src="images/smp.jpg" alt="Logo SMP" onerror="this.remove()"></div><div><time>2023 – 2020</time><h3> SMP GEMBALA BAIK PONTIANAK</h3><p>Mengikuti les matematika serta mendapat rangking atas.</p></div></div>
+      <div class="item rv"><div class="lg"><span>🏫</span><img src="images/sd.jpg" alt="Logo SD" onerror="this.remove()"></div><div><time>2020 – 2014</time><h3>SD GEMBALA BAIK II</h3><p>Aktif di ekskul bahasa inggris dan bahasa mandarin, serta mengikuti kepramukaan.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="wrap">
+    <h2 class="rv">Proyek & <span>Karya</span></h2>
+    <p class="sub rv">Beberapa hasil kerja yang paling saya banggakan.</p>
+    <div class="filters rv" id="filters">
+      <button class="on" data-f="all">Semua</button><button data-f="web">Web</button><button data-f="data">Data</button><button data-f="desain">Desain</button>
+    </div>
+    <div class="grid">
+      <article class="card rv" data-c="web"><div class="thumb" style="--g:linear-gradient(135deg,#1e3a8a,#3b82f6)">🛒</div><div class="body"><h3>Belum ada</h3></div></article>
+    </div>
+  </div>
+</section>
+
+<section id="contact" style="padding-top:40px">
+  <div class="wrap">
+    <div class="contact rv">
+      <h2>Ayo <span>Berkolaborasi</span></h2>
+      <p>Punya ide, tawaran magang, atau sekadar ingin berdiskusi? Hubungi saya lewat kontak di bawah ini.</p>
+      <div class="cgrid">
+        <a class="crow" href="tolia7733@gmail.com"><span class="ci"><svg viewBox="0 0 24 24"><path d="M2 5h20v14H2V5zm2 2v.5l8 5.5 8-5.5V7l-8 5.5L4 7z"/></svg></span><span><small>Email</small><b>tolia7733@gmail.com</b></span></a>
+        <a class="crow" href="https://wa.me/6281234567890" target="_blank" rel="noopener"><span class="ci"><svg viewBox="0 0 24 24"><path d="M6.6 10.8a15 15 0 006.6 6.6l2.2-2.2a1 1 0 011-.25c1.100.4 2.300.6 3.600.6a1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.500a1 1 0 011 1c0 1.300.2 2.500.6 3.600a1 1 0 01-.25 1l-2.250 2.200z"/></svg></span><span><small>WhatsApp</small><b>+62 823-5145-4906</b></span></a>
+        <a class="crow" href="#contact"><span class="ci"><svg viewBox="0 0 24 24"><path d="M12 2a7 7 0 00-7 7c0 5.200 7 13 7 13s7-7.800 7-13a7 7 0 00-7-7zm0 9.500a2.500 2.500 0 110-5 2.500 2.500 0 010 5z"/></svg></span><span><small>Lokasi</small><b>Pontianak, Kalimantan Barat</b></span></a>
+        <a class="crow" href="https://instagram.com/username" target="_blank" rel="noopener"><span class="ci"><svg viewBox="0 0 24 24"><path d="M7 2h10a5 5 0 015 5v10a5 5 0 01-5 5H7a5 5 0 01-5-5V7a5 5 0 015-5zm0 2a3 3 0 00-3 3v10a3 3 0 003 3h10a3 3 0 003-3V7a3 3 0 00-3-3H7zm5 3.500a4.500 4.500 0 110 9 4.500 4.500 0 010-9zm0 2a2.500 2.500 0 100 5 2.500 2.500 0 000-5zM17.500 6a1 1 0 110 2 1 1 0 010-2z"/></svg></span><span><small>Instagram</small><b>@olvi.sanyu</b></span></a>
+        <a class="crow" href="https://github.com/username" target="_blank" rel="noopener"><span class="ci"><svg viewBox="0 0 24 24"><path d="M8.7 16.6L4.1 12l4.6-4.6L7.3 6l-6 6 6 6 1.4-1.4zm6.6 0l4.6-4.6-4.6-4.6L16.7 6l6 6-6 6-1.4-1.4z"/></svg></span><span><small>GitHub</small><b>github.com/sznyuu</b></span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer><div class="wrap">© <span id="yr"></span> Anatoly Sanyuvida Olvi (2026).</div></footer>
+
+<script src="script.js"></script>
+</body>
+</html>
